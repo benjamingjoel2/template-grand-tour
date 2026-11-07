@@ -1,0 +1,16 @@
+{
+  "name": "template-grand-tour",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grand Tour: a Tourground Launch Pad template for tailor-made travel brands.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node src/build.mjs && node scripts/check.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check:mobile": "node scripts/check-mobile.mjs"
+  },
+  "license": "UNLICENSED"
+}
